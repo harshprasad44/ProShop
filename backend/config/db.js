@@ -8,9 +8,9 @@ const connectDB = async () => {
       useCreateIndex: true,
     });
 
-    console.log(`MongoDB connected: ${conn.connection.host}`);
+    console.log(`MongoDB connected: ${conn.connection.host}`.cyan.underline);
   } catch (error) {
-    console.error(`ERROR: ${error.message}`);
+    console.error(`ERROR: ${error.message}`.red.underline.bold);
     process.exit(1);
   }
 };
