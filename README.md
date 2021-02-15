@@ -13,14 +13,14 @@ PAYPAL_CLIENT_ID = your paypal client id
 ```
 
 ## Install Dependencies (frontend & backend)
-```javascript
+```bash
 npm install
 cd frontend
 npm install
 ```
 
 ## Run
-```javascript
+```bash
 # Run frontend (:3000) & backend (:5000)
 npm run dev
 
