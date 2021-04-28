@@ -23,7 +23,7 @@ const App = () => {
   return (
     <Router>
       <Header />
-      <main className="py-3">
+      <main className="py-3" style={{ backgroundColor: "#F5F0F9", borderRadius: "24px" }}>
         <Container>
           <Route path="/order/:id" component={OrderScreen} />
           <Route path="/shipping" component={ShippingScreen} />
